@@ -1,0 +1,60 @@
+[
+    {
+        "analogie": "un animal",
+        "ValeurAnalogie": "un tigre",
+        "raison": "Il est un animal fort et puissant. Solitaire, il règne sur de grande terre où ils chassent ses proies. Malin, il sait se rendre discret, presque invisible,malgré sa carrure imposante. Fort, il est le plus puissant et grand félin sur terre. Il est le vrai roi, le roi dans l'ombre. Car même s'il pouvait prendre la place du lion ça ne l'intéresse pas. Le tigre préfère vivre simplement en chassant pour lui. Ainsi, le tigre vit pour lui en comptant sur lui. Néanmoins, il est aussi protécteur. Il protége ses petits des dangers et les nourris.",
+        "class": "analogie1",
+        "img": "img/analogie1.jpg",
+        "id": "analogie1"
+    },
+    {
+        "analogie": "un manga" ,
+        "ValeurAnalogie": "One Piece",
+        "raison": "One Piece est une aventure nous transportant sur une mer de liberté. Cette oeuvre regroupe tout style de personne, peu importe leur ethine, leur genre ou leur physique... C'est une belle leçon de vie qui montre tous les humains naviquent ensemble sur l'océan de la vie en quête de liberté et d'aventure.",
+        "class": "analogie2",
+        "img": "img/analogie2.jpg",
+        "id": "analogie2"
+    },
+    {
+        "analogie": "une musique" ,
+        "ValeurAnalogie": "Notes pour trop tard" ,
+        "raison": "Plus qu'une musique, Notes pour trop tard est une leçon de vie adressé aux jeunes en pleine adolescence. Bien qu'ayant passé ce cap de ma vie, écouter ce son me procure toujours de la nostalgie. Et sans prendre en compte les paroles, la mélodie et le tempo sont très apaisant. Cette musique est écoutable partout, que ce soit en voiture ou seul chez soit en faisant le ménage. C'est pour son côté \"apprentissage\" et doux que j'ai choisis cette musique.",
+        "class": "analogie3",
+        "img": "img/analogie3.jpg",
+        "id": "analogie3"
+
+    },
+    {
+        "analogie": "un instrument" ,
+        "ValeurAnalogie": "le saxophone",
+        "raison": "Je serais le saxophone. Pendant plusieurs années de ma vie j'ai fait du saxophone. Cet instrument à l'allure aussi belle que complexe et aux formes séduisantes peut créer divers mélodie. Presque aucune note ne lui ait inconnu. Que ce soit des mélodies douces et mélancoliques ou bien endiablé et prenante, il n'y a rien que le saxophone ne puisse faire" ,
+        "class": "analogie4",
+        "img": "img/analogie4.jpg",
+        "id": "analogie4"
+    },
+    {
+        "analogie": "un être mythologique" ,
+        "ValeurAnalogie": "Sun Wukong",
+        "raison": "Je serais Sun Wukong, le roi singe. Il est certainement l'un des êtres du floklore chinois le plus populaire.Être libre et indépendant, il se suffit à lui même et vit sa vie comme il l'entend. C'est un symbole de force et de liberté. Au fil de sa vie, le roi singe a appris à faire preuve de recul afin d'avoir une meilleure approche de soit. Il est doté d'une grande sagesse." ,
+        "class": "analogie5",
+        "img": "img/analogie5.jpg",
+        "id": "analogie5"
+
+    },
+    {
+        "analogie": "un jeux vidéo",
+        "ValeurAnalogie": "je serais God of War 4",
+        "raison": "J'ai toujours aimé les différentes mythes et légendes et la mythologie nordique. God of war nous offre une expédition exclusive de ce monde fantastique. De plus, nous avons la chance d'avoir une histoire inédite mettant en avant les liens complexes entre un fils. Ce sont pour tous ces éléments enrichissants et immersifs que je choisis god of war",
+        "class": "analogie6",
+        "img": "img/analogie6.jpg",
+        "id": "analogie6"
+    },
+    {
+        "analogie": "un sport" ,
+        "ValeurAnalogie": "le mma" ,
+        "raison": "Parmis tous les sports, les sports de combats sont mes préférés et le MMA est le meilleure d'entre eux. Bien que le sport peut avoir une mauvaise image à cause de sa brutalité, quand on s'y intéresse vraiment on voit réellement la beauté de cet art. Que ce soit dans les valeurs sportives ou alors le côté performance qui est époustouflant. Après tout, le MMA est la consécration de millier d'années d'évolutions des arts martiaux. C'est pour la beauté et la diversité de sport que je le choisis" ,
+        "class": "analogie7",
+        "img": "img/analogie7.jpg",
+        "id": "analogie7"
+    }
+]

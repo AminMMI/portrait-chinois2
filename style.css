@@ -1,0 +1,336 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  /* scroll-behavior: smooth; */
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--clr-foreground);
+}
+
+header {
+    height: 100vh;
+    background-image: url(img/background1.jpg);
+    background-size: cover;
+    scroll-snap-align: center;
+    font-family: 'Sawarabi Mincho', serif;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    }
+
+div .text{
+    width: 550px;
+    text-align: left;
+    font-family: 'Malgun Gothic', sans-serif;
+    font-size: 1.2em;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.photo {
+    margin-left: 40px;
+    margin-top: 50px;
+    height: 350px;
+    width: 275px;   
+}
+
+.photo img {
+    border-radius: 10%;
+}
+
+.chat { 
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: var(1.5em);
+  z-index: 2;
+}
+
+.chat:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.content {
+  padding: 3em 4em;
+  width: 1000px;
+  height: 700px;
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+  position: relative; 
+  
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+.content img {
+  filter: grayscale(0%);
+}
+
+.button {
+  height: 50px;
+  width: 50px;
+  display: flex;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 800px;
+  z-index: 998;
+}
+
+ul li {
+  display: inline-block;
+  padding-right: 30px;
+  padding-left: 20px;
+  font-family: 'Sawarabi Mincho', serif;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  position: absolute;
+}
+
+ main a:hover {
+  transform: scale(1.3);
+  transition: all 0.3s;
+}
+
+main a:link {
+  transition: 1s ease;
+}
+
+.liste-analogies h1 {
+    font-family: 'Sawarabi Mincho', serif;
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 15px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 0px 20px #FFFFFF;
+    z-index: 999;
+}
+
+.liste-analogies h2 { 
+  font-family: 'Sawarabi Mincho', serif;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 15px;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 0px 20px #FFFFFF;
+  z-index: 999;
+}
+
+.liste-analogies p {
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 250px 100px 0;
+    padding: 10px 25px 10px; 
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 29px 0px rgba(255,255,255,0.7); 
+    box-shadow: 0px 0px 29px 0px rgba(255,255,255,0.7);
+    z-index: 999;
+}
+  
+.liste-analogies section:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.liste-analogies img {
+  height: 100vh;
+  width: 80vw;
+  position: absolute;
+  z-index: 0;
+  box-shadow: 0px 0px 25px 5px #000000;
+}
+
+img {
+  filter: grayscale(100%);
+
+}
+
+img:hover {
+  filter: grayscale(0%);
+  transition: 1s;
+}
+
+.liste-analogies {
+  background-image: url(img/fond.jpg);
+}
+
+.liste-analogies section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 80vw;
+  margin: auto;
+}
+
+section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  -moz-scroll-snap-align: start;
+  -moz-scroll-snap-stop: always;
+}
+
+footer {
+  text-align: center;
+  height: 100vh;
+  font-family: 'Sawarabi Mincho', serif;
+  background-image: url(img/formulaire.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.formulaire h1 {
+  margin: 0;
+  padding-bottom: 50px;
+  text-shadow: 0px 0px 20px #ffffff;
+}
+
+@keyframes color {
+  0%   { background: rgba(30, 30, 30, 0.7); }
+  50%  { background: rgba(0, 0, 0, 0.7); }
+  100%   { background: rgba(30, 30, 30, 0.7); }
+
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  color: white;
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  animation: color 3s infinite linear;
+  font-family: 'Sawarabi Mincho', serif;
+  margin: auto;
+  border-radius: 10px;
+  width: 30%;
+  font-size: 1.3em;
+  padding-bottom: 50px;
+  -webkit-box-shadow: 0px 0px 30px 3px #FFFFFF; 
+box-shadow: 0px 0px 30px 3px #FFFFFF;
+}
+
+input[type="text"],  input[type="email"] {
+    background-color: transparent;
+    border-radius: 5px;
+    border: solid rgb(0, 0, 0) 1px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    margin-top: 15px;
+}
+
+input[type="text"]::placeholder {
+  color: rgb(169, 155, 155);
+}
+
+input[type="button"] {
+  background-color: black;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+} 
+
+.analogie-formulaire {
+  background-image: url(img/fond.jpg);
+  height: 100vh;
+  }
+
+.analogie-formulaire h1 {
+  font-family: 'Sawarabi Mincho', serif;
+  text-align: center;
+  padding-top: 15px;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 0px 20px #FFFFFF;
+  z-index: 999;
+}
+
+.analogie-formulaire h2 { 
+font-family: 'Sawarabi Mincho', serif;
+text-align: center;
+padding-top: 15px;
+color: rgb(0, 0, 0);
+text-shadow: 1px 0px 20px #FFFFFF;
+z-index: 999;
+}
+
+.analogie-formulaire p {
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 250px 100px 0;
+  padding: 10px 25px 10px; 
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 29px 0px rgba(255,255,255,0.7); 
+  box-shadow: 0px 0px 29px 0px rgba(255,255,255,0.7);
+  z-index: 999;
+}
+
+.analogie-formulaire img {
+height: 100vh;
+width: 80vw;
+position: absolute;
+z-index: 0;
+box-shadow: 0px 0px 25px 5px #000000;
+}
+
+.analogie-formulaire section {
+display: flex;
+flex-direction: column;
+height: 100vh;
+width: 80vw;
+margin: auto;
+}
+
+.analogie-formulaire section:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  }
+
+.mention {
+  background-color: black;
+  color: white;
+  padding-bottom: 10px;
+}

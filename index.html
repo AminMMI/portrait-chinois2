@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portrait Chinois - Amin Benazzouz</title>
+    <link href="style.css" rel="stylesheet"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Noto+Sans+Display:wght@200&family=Oswald:wght@500&family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header>
+            <div class="presentation">
+                <h1>Bienvenue sur mon portrait chinois</h1>
+                <h2>Venez découvrir ce que je serais si j'étais...</h2>
+            </div>
+
+
+            <div data-aos="fade-down" data-aos-duration="1500">
+                <div class="text">
+                    <p>Actuellement en BUT MMI (Métiers du Multimédia et de l'Internet), j'apprends les différents languages permettant la réalisation de site web ainsi que l'élaboration des visuels et des maquettes nécessaires à sa réalisation. Je suis sérieux, ponctuel, toujours appliqué et rigoureux dans tous les projets que j’entreprends.<br><br>  
+                    Ce sont grâces à ces qualités que j'ai pu intégrer la formation et que je continue de m'épanouir continuellement. 
+                    Je vous propose donc de découvrir mon univers à travers ce portrait chinois.</p>
+                </div>
+                <div class="photo">
+                    <img src="img/IMG_3473.jpg">
+                </div>
+
+
+               
+            </div>
+
+            <div class="pop-up">
+                <a href="#chat"><h2>cliquez pour voir un chat</h2></a>
+            </div>
+            <div class="chat" id="chat">
+                <div class="content">
+                    <img src="img/chat.png">
+                    <a href="#" class="modal_close">&times;</a>
+                </div>
+            </div>
+        </header>    
+ 
+        <main>
+            <ul>
+                <li><a href="#analogie1">1</a></li>
+                <li><a href="#analogie2">2</a></li>
+                <li><a href="#analogie3">3</a></li>
+                <li><a href="#analogie4">4</a></li>
+                <li><a href="#analogie5">5</a></li>
+                <li><a href="#analogie6">6</a></li>
+                <li><a href="#analogie7">7</a></li>
+                <li><a href="#top" class="button"><img class="button" src="img/fleche.png"></a></li>
+            </ul>
+    
+=                
+
+            <div class="liste-analogies">
+    
+            </div>
+
+      
+            
+        </main>
+         
+
+        <footer>  
+            <section class="formulaire">
+                <h1>A votre tour de me faire découvrir votre univers</h1>
+                <form>
+                    <form method="" action=" ">
+
+                        <label for="nom">Si j'étais</label>
+                        <input type="text" placeholder= "un pays" id="analogie" name="analogie" required>
+                    
+                        <br>
+                    
+                        <label for="prenom">Je serais</label>
+                        <input type="text" placeholder="le Maroc" id="valeurAnalogie" name="valeurAnalogie" required>
+                        
+                            <br>
+                        
+                        <label for="raison">Car</label>
+                        <input type="text" placeholder="car c'est un magnifique pays" id="raison" name="raison" required>
+        
+                            <br>
+        
+                        <label for="text">Illustration</label>
+                        <input type="text" placeholder="lien de l'image" id="image" name="image">
+                        
+
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="entrez votre mail" id="email" name="email" required>
+
+                            <br>
+                        <div id="formMessage" class="forMessage"></div>
+                        <input type="button" value="Envoyer" id="btn-form" class="btn-form">
+                </form>
+            </section>
+
+            <section class="analogie-formulaire">
+
+            </section>
+
+            <section class="mention">
+                <h1>Mention Légale</h1>
+                <h2>Image :</h2>
+                <p>Toutes les images utilisées sur cette page sont libres de droit pour usage personnel, et ne feront jamais l'objet d'une commercialisation.</p>
+                <h2>Hébergeur :</h2>
+                <p>Université Gustave Eiffel - 2 rue Albert Einstein, 77420 Champs-sur-Marne, France - 01 60 95 75 00 - webmaster@univ-eiffel.fr</p>
+                <p>Conformément à l'article 15 du Règlement général sur la protection des données (RGPD) du 27 avril 2016, vous disposez d'un droit d'accès aux informations vous concernant. Si vous trouvez que ces informations sont incorrectes, l'article 16 du RGPD vous permet de les modifier ou de les supprimer. Dans ce cas, merci de contacter le directeur de la communication : com@univ-eiffel.fr.
+                    <br>
+                    Le formulaire permettant la création d’une analogie personnalisée recueil votre adresse de courriel et votre adresse IP. Pour toute question portant sur la collecte ou le traitement de vos données à caractère personnel par l’UPEM, vous pouvez saisir la personne responsable du traitement des données qui est : Philippe Gambette (philippe.gambette@univ-eiffel.fr) Les fichiers détenus par l'UPEM qui comportent des données à caractère personnel ne seront jamais transmis à des tiers et ne feront jamais l'objet d'une commercialisation.</p>
+            </section>
+
+        </footer>  
+
+
+
+ 
+
+       
+            
+ 
+                          
+   
+
+ <script src="data.js"></script>   
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+</body>
+</html>
